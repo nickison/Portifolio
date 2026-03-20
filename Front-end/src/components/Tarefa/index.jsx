@@ -1,5 +1,6 @@
 import Botao from "../Botao"
 import imagemConcluida from "../../assets/marca-de-verificacao.png"
+
 function Tarefa({item, onClick }){
     return(
             <li className={`

@@ -7,7 +7,7 @@ import Financeiro from "../pages/Financeiro";
 
 function AppRoutes() {
   return (
-    <HashRouter basename="/Portifolio">
+    <HashRouter >
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/tarefas" element={<ListaTarefas />} />
