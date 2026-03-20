@@ -1,5 +1,5 @@
 import Botao from "../Botao"
-
+import imagemConcluida from "../../assets/marca-de-verificacao.png"
 function Tarefa({item, onClick }){
     return(
             <li className={`
@@ -42,7 +42,7 @@ function Tarefa({item, onClick }){
             type="button"
             onClick={onClick}
             >
-                {<img src="../src/assets/marca-de-verificacao.png"/>}
+                {<img src={imagemConcluida}/>}
             </Botao>
         </li>
     )

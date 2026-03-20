@@ -4,7 +4,7 @@ import ListaDeTarefas from "../../components/ListaDeTarefas";
 import Botao from "../../components/Botao";
 import Usuarios from "../../Components/Usuarios";
 import api from "../../services/api"
-
+import imagemLimparTarefas from "../../assets/tarefa-concluida.png"
 function ListaTarefas() {
     
   const [users, setUsers] = useState([])
@@ -150,7 +150,7 @@ function ListaTarefas() {
           w-12
           "
       >
-        {<img src="src/assets/tarefa-concluida.png" alt="Limpar Tarefas" />}
+        {<img src={imagemLimparTarefas} alt="Limpar Tarefas" />}
       </Botao>
         <Usuarios className="bg-amber-300 w-96 h-24" usuarios={users}></Usuarios>
     </div>

@@ -6,8 +6,10 @@ function Home() {
   return (
     <div className="min-h-screen bg-slate-900 text-white flex flex-col items-center justify-center gap-6">
 
+      <img src="" alt="" />
+
       <h1 className="text-4xl font-bold">
-        Michael Dev 🚀
+        Michael Nickison Dev 🚀
       </h1>
 
       <p className="text-gray-300">
